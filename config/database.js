@@ -14,6 +14,7 @@ module.exports = {
     password: DB_PASSWORD,
     database: `${DB_NAME}`,
     host: DB_HOST,
+    dialect: "postgres",
     dialectOptions: {
       ssl: {
         require: true,
@@ -26,6 +27,7 @@ module.exports = {
     password: DB_PASSWORD,
     database: `${DB_NAME}`,
     host: DB_HOST,
+    dialect: "postgres",
     dialectOptions: {
       ssl: {
         require: true,
@@ -38,6 +40,7 @@ module.exports = {
     password: DB_PASSWORD,
     database: `${DB_NAME}`,
     host: DB_HOST,
+    dialect: "postgres",
     dialectOptions: {
       ssl: {
         require: true,
